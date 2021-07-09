@@ -179,7 +179,7 @@ AppModule = tslib_1.__decorate([
     common_1.Module({
         imports: [
             serve_static_1.ServeStaticModule.forRoot({
-                rootPath: path_1.join(__dirname, '..', 'nx-app'),
+                rootPath: path_1.join(__dirname, '..', 'chatty'),
                 exclude: ['/api*'],
             }),
         ],

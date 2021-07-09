@@ -8,7 +8,7 @@ import { join } from 'path';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'nx-app'),
+      rootPath: join(__dirname, '..', 'chatty'),
       exclude: ['/api*'],
     }),
   ],
